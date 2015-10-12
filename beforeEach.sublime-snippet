@@ -1,0 +1,13 @@
+<snippet>
+	<content>
+beforeEach(function() {
+	contextGetVariableMethod = sinon.stub(context, 'getVariable');
+	httpClientSendMethod = sinon.stub(httpClient, 'send');
+	requestConstr = sinon.spy(GLOBAL, 'Request');
+});
+</content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>_beforeEach</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js</scope>
+</snippet>

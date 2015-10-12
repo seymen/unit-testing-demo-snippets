@@ -1,0 +1,12 @@
+<snippet>
+	<content>
+var requestConstrArguments = requestConstr.args[0];
+expect(requestConstrArguments[0]).to.equal('http://logs-01.loggly.com/inputs/f32d42c7-8be7-40e1-bd27-d3d86a6caae8/tag/http/');
+expect(requestConstrArguments[1]).to.equal('POST');
+expect(requestConstrArguments[2]['Content-Type']).to.equal('application/json');
+</content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>_expect_request</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js</scope>
+</snippet>

@@ -1,0 +1,13 @@
+<snippet>
+	<content>
+describe('feature: logging to loggly', function() {
+	it('should push error logs correctly to loggly', function() {
+
+	});
+});
+</content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>_describe</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js</scope>
+</snippet>

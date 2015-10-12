@@ -1,0 +1,11 @@
+<snippet>
+	<content>
+var logObject = JSON.parse(requestConstrArguments[3]);
+expect(logObject.messageId).to.equal('1234');
+expect(logObject.organization).to.equal('org1');
+</content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>_expect_log</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js</scope>
+</snippet>
